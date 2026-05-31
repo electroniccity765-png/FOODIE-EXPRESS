@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FoodieExpress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍕 FoodieExpress</h1>
+        <p>Online Food Ordering System</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Pizza</h2>
+            <p>₹299</p>
+            <button onclick="addToCart(299)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2>Burger</h2>
+            <p>₹149</p>
+            <button onclick="addToCart(149)">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2>Biryani</h2>
+            <p>₹249</p>
+            <button onclick="addToCart(249)">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <div id="cart">
+        🛒 Cart Total: ₹0
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
